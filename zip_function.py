@@ -12,5 +12,5 @@ def make_archive(filepaths, dest_dir):
             archive.write(filepath, arcname=filepath.name)
              
 if __name__=='__main__':
-    make_archive(filepaths=["C:/Users/1000490/Desktop/bonus_examples/seceond"],dest_dir='dest')
+    make_archive(filepaths=[""],dest_dir='dest') # add your own filepath here
     
